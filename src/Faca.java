@@ -14,10 +14,11 @@ public class Faca implements InterfaceArma{
 			int energiaFinal = guerreiro.getEnergia() - DANOFACA;
 			guerreiro.setEnergia(energiaFinal);
 		
-		}
+		}else{
 		int energiaFinal = guerreiro.getEnergia() - DANOFACA;
 		guerreiro.setEnergia(energiaFinal);
 		System.out.println("Morreu!");
+		}
 	}
 
 }

@@ -16,10 +16,11 @@ public class Lanca implements InterfaceArma{
 			int energiaFinal = guerreiro.getEnergia() - DANOLANCA;
 			guerreiro.setEnergia(energiaFinal);
 		
-		}
+		}else {
 		int energiaFinal = guerreiro.getEnergia() - DANOLANCA;
 		guerreiro.setEnergia(energiaFinal);
 		System.out.println("Morreu!");
+		}
 		
 	}
 

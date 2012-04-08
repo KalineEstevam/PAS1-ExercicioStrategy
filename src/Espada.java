@@ -13,10 +13,11 @@ public class Espada implements InterfaceArma{
 			int energiaFinal = guerreiro.getEnergia() - DANOESPADA;
 			guerreiro.setEnergia(energiaFinal);
 		
-		}
+		}else {
 		int energiaFinal = guerreiro.getEnergia() - DANOESPADA;
 		guerreiro.setEnergia(energiaFinal);
 		System.out.println("Morreu!");
+		}
 	}
 
 }
